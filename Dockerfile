@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.18-bullseye
 
 ARG BOR_DIR=/bor
 ENV BOR_DIR=$BOR_DIR
